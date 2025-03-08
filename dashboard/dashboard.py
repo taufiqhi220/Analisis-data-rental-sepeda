@@ -84,3 +84,5 @@ ax.set_xlabel("Musim")
 ax.set_xticks(range(len(season_labels)))
 ax.set_xticklabels(season_labels, rotation=0)
 st.pyplot(fig)
+
+st.caption("by Taufiq Hidayat aka taufiqhi220.")
