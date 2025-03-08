@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-main_df = pd.read_csv("main_data.csv")
+main_df = pd.read_csv("dashboard/main_data.csv")
 main_df["dteday"] = pd.to_datetime(main_df["dteday"])
 
 # Batasi rentang tanggal hanya untuk tahun 2011 dan 2012
